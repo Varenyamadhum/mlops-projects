@@ -21,5 +21,12 @@ installl the requirements
  git init
 
  dvc init
+ ``` 
+ It will create certain folders called .dvcignore etc.,
+ 
 
  dvc add data_given/winequality.csv
+
+ git add .
+
+git commit -m "First commit"
