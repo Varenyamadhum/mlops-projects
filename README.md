@@ -30,3 +30,16 @@ installl the requirements
  git add .
 
 git commit -m "First commit"
+
+git add . && git commit -m "update README.md"
+
+``` Create a new github respository and execute the below command which will add entire code to the repository - master
+git remote add origin https://github.com/Varenyamadhum/mlops-projects.git
+```
+```
+Now change the master to main
+git branch -M main
+```
+```Now get all the vscode to your repository 
+git push -f -u origin main
+```` 
